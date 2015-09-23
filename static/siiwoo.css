@@ -1,0 +1,170 @@
+/*-------siiwoo style-------*/
+#siiwoo_video{
+    width: 100%;
+    height: 380px;
+    background: #000;
+}
+#siiwoo_content{
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 15px 0 0 0;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+#siiwoo_barrage{
+    position: relative;
+    overflow: hidden;
+    left: -0;
+    margin: -350px 0 50px 0;
+    width: 100%;
+    height: 290px;
+    z-index: 9999;
+    top: 10px;
+}
+/*---------animation---------*/
+#siiwoo_barrage .siiwoo_animation{
+    position: absolute;
+    font-weight: bold;
+}
+/*--top--*/
+#siiwoo_barrage .one{top: 20px;}
+#siiwoo_barrage .two{top: 60px;}
+#siiwoo_barrage .three{top: 100px;}
+#siiwoo_barrage .four{top: 140px;}
+#siiwoo_barrage .five{top: 180px;}
+#siiwoo_barrage .six{top: 220px;}
+/*--color--*/
+#siiwoo_barrage .white{color: white;}
+#siiwoo_barrage .red{color: red;}
+/*--size--*/
+#siiwoo_barrage .size18{font-size: 18px;}
+/*--etc--需要计算message字符数,并且适配动画位移效果--*/
+#siiwoo_barrage .etc100{
+	left: -100px;
+	width: 100px;
+	animation: leftToRight100 5s linear;
+    -moz-animation: leftToRight100 5s linear; /* Firefox */
+    -webkit-animation: leftToRight100 5s linear; /* Safari and Chrome */
+    -o-animation: leftToRight100 5s linear; /* Opera */
+}
+#siiwoo_barrage .etc200{
+	left: -200px;
+	width: 200px;
+	animation: leftToRight200 5.8s linear;
+    -moz-animation: leftToRight200 5.8s linear; /* Firefox */
+    -webkit-animation: leftToRight200 5.8s linear; /* Safari and Chrome */
+    -o-animation: leftToRight200 5.8s linear; /* Opera */
+}
+#siiwoo_barrage .etc300{
+	left: -300px;
+	width: 300px;
+	animation: leftToRight300 6.6s linear;
+    -moz-animation: leftToRight300 6.6s linear; /* Firefox */
+    -webkit-animation: leftToRight300 6.6s linear; /* Safari and Chrome */
+    -o-animation: leftToRight300 6.6s linear; /* Opera */
+}
+#siiwoo_barrage .etc400{
+	left: -400px;
+	width: 400px;
+	animation: leftToRight400 7.5s linear;
+    -moz-animation: leftToRight400 7.5s linear; /* Firefox */
+    -webkit-animation: leftToRight400 7.5s linear; /* Safari and Chrome */
+    -o-animation: leftToRight400 7.5s linear; /* Opera */
+}
+#siiwoo_barrage .etc500{
+	left: -500px;
+	width: 500px;
+	animation: leftToRight500 8.3s linear;
+    -moz-animation: leftToRight500 8.3s linear; /* Firefox */
+    -webkit-animation: leftToRight500 8.3s linear; /* Safari and Chrome */
+    -o-animation: leftToRight500 8.3s linear; /* Opera */
+}
+#siiwoo_barrage .etc600{
+	left: -600px;
+	width: 600px;
+	animation: leftToRight600 9.1s linear;
+    -moz-animation: leftToRight600 9.1s linear; /* Firefox */
+    -webkit-animation: leftToRight600 9.1s linear; /* Safari and Chrome */
+    -o-animation: leftToRight600 9.1s linear; /* Opera */
+}
+#siiwoo_barrage .etc700{
+	left: -700px;
+	width: 700px;
+	animation: leftToRight700 10s linear;
+    -moz-animation: leftToRight700 10s linear; /* Firefox */
+    -webkit-animation: leftToRight700 10s linear; /* Safari and Chrome */
+    -o-animation: leftToRight700 10s linear; /* Opera */
+}
+#siiwoo_barrage .etc800{
+	left: -800px;
+	width: 800px;
+	animation: leftToRight800 10.8s linear;
+    -moz-animation: leftToRight800 10.8s linear; /* Firefox */
+    -webkit-animation: leftToRight800 10.8s linear; /* Safari and Chrome */
+    -o-animation: leftToRight800 10.8s linear; /* Opera */
+}
+#siiwoo_barrage .etc900{
+	left: -900px;
+	width: 900px;
+	animation: leftToRight900 11.6s linear;
+    -moz-animation: leftToRight900 11.6s linear; /* Firefox */
+    -webkit-animation: leftToRight900 11.6s linear; /* Safari and Chrome */
+    -o-animation: leftToRight900 11.6s linear; /* Opera */
+}
+#siiwoo_barrage .etc1000{
+	left: -1000px;
+	width: 1000px;
+	animation: leftToRight1000 12.5s linear;
+    -moz-animation: leftToRight1000 12.5s linear; /* Firefox */
+    -webkit-animation: leftToRight1000 12.5s linear; /* Safari and Chrome */
+    -o-animation: leftToRight1000 12.5s linear; /* Opera */
+}
+
+@keyframes leftToRight100{
+    from{left: -100px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight200{
+    from{left: -200px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight300{
+    from{left: -300px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight400{
+    from{left: -400px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight500{
+    from{left: -500px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight600{
+    from{left: -600px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight700{
+    from{left: -700px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight800{
+    from{left: -800px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight900{
+    from{left: -900px;}
+    to{left: 500px;}
+}
+@keyframes leftToRight1000{
+    from{left: -1000px;}
+    to{left: 500px;}
+}
+@keyframes leftToRightTest{
+    0%   {left:0;}
+    25%  {left:80px;}
+    50%  {left:160px;}
+    75%  {left:240px;}
+    100% {left:320px;}
+}
